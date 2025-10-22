@@ -81,4 +81,8 @@ const remaining = computed(() => todos.filter(t => !t.done).length);
     opacity: 0;
     transform: translateY(10px);
   }
+      p{
+        color: #000;
+    }
+
 </style>
